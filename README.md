@@ -19,6 +19,7 @@
 
 ## 页面展示
 ### 登录注册页
+[在线预览](https://bunny0927.github.io/douban/pre.html)
 #### 仿写页面
 ![image](./images/pages/imitation-pre.png)
 
@@ -26,6 +27,7 @@
 ![image](./images/pages/reference-pre.png)
 
 ### 首页
+[在线预览](https://bunny0927.github.io/douban/homepage.html)
 #### 仿写页面
 ![image](./images/pages/imitation-homepage.png)
 
@@ -33,6 +35,7 @@
 ![image](./images/pages/reference-homepage.png)
 
 ### 个人主页
+[在线预览](https://bunny0927.github.io/douban/mypage.html)
 #### 仿写页面
 ![image](./images/pages/imitation-mypage.png)
 
