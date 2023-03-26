@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豆瓣-首页</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="shortcut icon" href="./images/icon.ico" type="image/gif">
+</head>
+<body>
+    <header>
+        <div class="global-nav clearfix">
+            <div class="nav-info">
+                <div class="user-account">
+                    <a href="#" id="account-click"><span>瑶麦的账号</span><span class="arrow"></span></a>
+                    <div class="more-items" id="account-items" style="display: none;">
+                        <ul>
+                            <li><a href="./mypage.html">个人主页</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">我的钱包</a></li>
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="./pre.html">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="douyou"><a href="#">豆邮</a><em>(1)</em></div>
+                <div class="top-nav-reminder">
+                    <a href="#" class="lnk-remind" id="remind-click">提醒</a>
+                    <div id="remind-items" class="more-items" style="display: none;">
+                        <div class="bd">
+                            <p class="no-new-notis">最近没有收到新提醒...</p>
+                        </div>
+                        <div class="ft">
+                            <a href="#">查看全部提醒
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-nav-doubanapp">
+                    <a href="#" class="lnk-doubanapp" id="doubanapp—hover">下载豆瓣客户端</a>
+                    <div id="nav-appintro" class="more-items" style="display: none;">
+                        <div class="appintro-title">
+                            <img src="./images/nav_doubanapp.png" height="100" width="100"/>
+                            <p>豆瓣</p></div>
+                        <div class="qrcode">
+                            <img src="./images/app_qrcode.png" height="150" width="150"/>
+                            <p>扫码直接下载</p>
+                        </div>
+                        <div class="download">
+                            <a href="#">iPhone</a>
+                            <span>·</span>
+                            <a href="#" class="download-android">Android</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="nav-items">
+                <li><a href="./homepage.html">豆瓣</a></li>
+                <li><a href="#">读书</a></li>
+                <li><a href="#">电影</a></li>
+                <li><a href="#">音乐</a></li>
+                <li><a href="#">同城</a></li>
+                <li><a href="#">小组</a></li>
+                <li><a href="#">阅读</a></li>
+                <li><a href="#">FM</a></li>
+                <li><a href="#">时间</a></li>
+                <li><a href="#">豆品</a></li>
+            </ul>
+        </div>
+        <div class="nav-sns clearfix">
+            <div class="hw nav-sns-content">
+                <div class="site-name">豆瓣网</div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a class="lnk-item" href="./homepage.html">首页</a></li>
+                        <li><a class="lnk-item" href="./mypage.html">我的豆瓣</a></li>
+                        <li><a class="lnk-item" href="#">浏览发现</a></li>
+                        <li><a class="lnk-item lnk-topic" href="#">话题广场
+                            <img src="./images/new_menu.gif" style="position: absolute; top: -7px; right: -13px;">
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="search-input">
+                    <input type="text" placeholder="搜索你感兴趣的内容和人..." />
+                    <button></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main hw clearfix">
+        <div class="main-container">
+            <article>
+                <div class="main-nav">
+                    <div class="main-nav-top">
+                        <ul>
+                            <li class="nav-say"><a>说句话</a></li>
+                            <li class="nav-pic"><a>发照片</a></li>
+                            <li class="nav-web"><a>推荐网页</a></li>
+                            <li class="nav-riji">
+                                <div class="riji">
+                                    <a>写日记</a>
+                                    <div class="riji-container">
+                                        <span class="arrow down" id="riji-arrow"></span>
+                                        <div id="riji-items" class="more-items" style="display: none;">
+                                            <ul>
+                                                <li><a>创作片单</a></li>
+                                                <li><a>创作书单</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <a  class="nav-top-setting" href="#"><p>首页设置</p></a>
+                    </div>
+                    <div class="main-nav-input">
+                        <label>分享生活点滴...</label>
+                        <button></button>
+                    </div>
+                </div>
+
+                <div class="main-content">
+                    <ul>
+                        <li class="item clearfix">
+                            <img class="profile" src="./images/profile.jpg" height="50" width="50"/>
+                            <div class="item-content">
+                                <p class="user-info"><em>瑶麦</em>&nbsp;说：</p>
+                                <p class="item-detail">hello!</p>
+                                <div class="item-info">
+                                    <span class="item-time"><a>1分钟前</a></span>
+                                    <ul>
+                                        <li><a>回应</a></li>
+                                        <li><a>转发</a></li>
+                                        <li><a>删除</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="adv clearfix">
+                            <img class="profile" src="./images/homepage/douban_time.jpg" height="50" width="50">
+                            <div class="adv-erebor">
+                                <span class="js-unfold-erebor-ad" id="adv-click">广告<i class="adv-arrow"></i></span>
+                                <ul style="display: none;" id="adv-items">
+                                    <li id="dismiss-click" class="js-dismiss-erebor-ad">不感兴趣</li>
+                                </ul>
+                            </div>
+                            <div class="item-content">
+                                <p class="user-info"><em>豆瓣时间</em></p>
+                                <blockquote class="item-detail">
+                                    <p>关于冷战，你的印象是否停留在美苏争霸、苏联解体等内容上？实际上，冷战关联的并不只是国家之间的对抗，它实实在在地影响了个人命运。那场见证了战场风云、间谍传奇，国家秘闻的冷战，从未远去。让我们回到冷战现场，读懂这个时代→
+                                        <a href="#">https://douc.cc/4tRGGp</a></p>
+                                </blockquote>
+                                <img src="./images/homepage/douban_time2.webp" height="170" width="260">
+                                <div class="item-info">
+                                    <span class="item-time"><a>今天凌晨</a></span>
+                                    <ul>
+                                        <li><a>回应</a></li>
+                                        <li><a>赞</a>&nbsp;(7)</li>
+                                        <li><a>转发</a>&nbsp;(3)</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="main-paginator">
+                    <span class="prev">
+                        &lt;前页
+                    </span>
+                    <span class="thispage">1</span>
+                    <a href="?p=2">2</a>
+                    <a href="?p=3">3</a>
+                    <a href="?p=4">4</a>
+                    <a href="?p=5">5</a>
+                    <a href="?p=6">6</a>
+                    <a href="?p=7">7</a>
+                    <a href="?p=8">8</a>
+                    <a href="?p=9">9</a>
+                    <span class="break">...</span>
+                    <span class="next">
+                        <a href="?p=2">后页&gt;</a>
+                    </span>
+
+                </div>
+            </article>
+            <aside>
+                <div class="main-ing">
+                    <h2>
+                        豆瓣正在发生
+                        &nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+                    </h2>
+                    <ul>
+                        <li>
+                            <a>豆瓣阅读︱第四届长篇拉力赛开放报名</a>
+                        </li>
+                        <li>
+                            <a>豆瓣书店｜解读5000年西方建筑的故事</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-time">
+                    <h2>
+                        豆瓣时间
+                        &nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+                        <span class="pl">&nbsp;(
+                            <a>查看全部</a>
+                            ) </span>
+                    </h2>
+                    <ul class="time-list">
+                        <li>
+                            <a>
+                                <img src="./images/homepage/time_list1.png"
+                                    alt="从未终结的历史——冷战12讲">
+                            </a>
+                            <a class="title">从未终结的历史——冷战12讲</a>
+                            <span class="type">音频专栏</span>
+                        </li>
+                        <li>
+
+                            <a>
+                                <img src="./images/homepage/time_list2.jpg"
+                                    alt="中国群星闪耀时——先秦诸子40讲">
+                            </a>
+                            <a class="title">中国群星闪耀时——先秦诸子40讲</a>
+                            <span class="type">音频专栏</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-topic">
+                    <h2>
+                        热门话题
+                        &nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+                        <span class="pl">&nbsp;(
+                            <a>去话题广场</a>
+                            ) </span>
+                    </h2>
+                    <ul>
+                        <li class="rec_topics">
+                            <a class="rec_topics_name">一次忙里偷闲的精神冒险</a>
+                            <span class="rec_topics_subtitle">3.2万次浏览</span>
+                        </li>
+                        <li class="rec_topics">
+                            <a class="rec_topics_name">记录每天家里光线最美的时刻</a>
+                            <span class="rec_topics_subtitle">新话题 · 1.0万次浏览</span>
+                        </li>
+                        <li class="rec_topics">
+                            <a class="rec_topics_name">重塑“想象力”的方式</a>
+                            <span class="rec_topics_subtitle">5.8万次浏览</span>
+                        </li>
+                        <li class="rec_topics">
+                            <a class="rec_topics_name">我未实现的生日愿望</a>
+                            <span class="rec_topics_subtitle">1.8万次浏览</span>
+                        </li>
+                        <li class="rec_topics">
+                            <a class="rec_topics_name">堪称视觉艺术的戏剧表演场面</a>
+                            <span class="rec_topics_subtitle">7455次浏览</span>
+                        </li>
+                        <li class="rec_topics">
+                            <a class="rec_topics_name">你是怎么处理你的旧电子产品的？</a>
+                            <span class="rec_topics_subtitle">2.7万次浏览</span>
+                        </li>
+                        <li class="rec_topics">
+                            <a class="rec_topics_name">那些名人失败的跨界</a>
+                            <span class="rec_topics_subtitle">1.4万次浏览</span>
+                        </li>
+                        <li class="rec_topics">
+                            <a class="rec_topics_name">让你感叹“原来这就是古诗文里的XXX”的场景</a>
+                            <span class="rec_topics_subtitle">7.4万次浏览</span>
+                        </li>
+                        <li class="my_topics">
+                            <a>&gt; 我被邀请参与的话题(0)</a>
+                        </li>
+                        <li class="my_topics">
+                            <a>+ 发起新话题</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-adv">
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="douban-footer">
+        <span>&copy;2005－2022 douban.com, all rights reserved 北京豆网科技有限公司</span>
+        <span class="fright">
+            <a href="#">关于豆瓣</a>
+            · <a href="#">在豆瓣工作</a>
+            · <a href="#">联系我们</a>
+            · <a href="#">法律声明</a>
+
+            · <a href="#">帮助中心</a>
+            · <a href="#">移动应用</a>
+            · <a href="#">豆瓣广告</a>
+        </span>
+    </footer>
+
+    <script>
+        window.onload = function() {
+            // 顶部导航栏
+            var nav_flag = false;
+            var account_items = document.getElementById("account-items");
+            var remind_items = document.getElementById("remind-items");
+            var nav_appintro = document.getElementById("nav-appintro");
+            // 写日记展开
+            var riji_container = document.getElementsByClassName("riji-container")[0];
+            var riji_items = document.getElementById("riji-items");
+            var riji_arrow = document.getElementById("riji-arrow");
+
+            //广告展开
+            var adv_items = document.getElementById("adv-items");
+            //广告关闭
+            var dismiss_click = document.getElementById("dismiss-click");
+
+            document.getElementById("account-click").onclick = function (){
+                account_items.style.display = account_items.style.display=="none"?"block":"none";
+                nav_flag = account_items.style.display=="block"?true:false;
+                if (nav_flag==true) {
+                    remind_items.style.display = "none";
+                    nav_appintro.style.display = "none";
+                }
+            }
+            document.getElementById("remind-click").onclick = function () {
+                remind_items.style.display = remind_items.style.display == "none" ? "block" : "none";
+                nav_flag = remind_items.style.display == "block" ? true : false;
+                if (nav_flag == true) {
+                    account_items.style.display = "none";
+                    nav_appintro.style.display = "none";
+                }
+            }
+            document.getElementById("doubanapp—hover").onmouseover = function () {
+                nav_appintro.style.display = "block";
+                remind_items.style.display = "none";
+                account_items.style.display = "none";
+            }
+            document.getElementById("doubanapp—hover").onmouseout = function () {
+                nav_appintro.style.display = "none";
+                nav_flag = false;
+            }
+
+            dismiss_click.onclick = function () {
+                dismiss_click.parentNode.parentNode.parentNode.style.display="none";
+            }
+
+            riji_container.onmouseover = function () {
+                riji_items.style.display = "block";
+                console.log(riji_arrow.className);
+                riji_arrow.className = "arrow up";
+            }
+            riji_container.onmouseout = function () {
+                riji_items.style.display = "none";
+                riji_arrow.className = "arrow down";
+            }
+
+            document.getElementById("adv-click").onclick = function () {
+                adv_items.style.display = adv_items.style.display == "none" ? "block" : "none";
+            }
+
+        }
+    </script>
+</body>
+</html>

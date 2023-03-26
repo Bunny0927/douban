@@ -1,0 +1,260 @@
+/* 本页面通用 */
+
+/* .main .anony-sns a:visited {
+    color: rgb(102,126,196);
+} */
+.mod h2 {
+    color: #007722;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.mod h2 .pl {
+    color: #666666;
+    font-size: 10px;
+}
+.anony-sns a , footer a {
+    color: #3377AA;
+    line-height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.anony-sns a:hover , footer a:hover {
+    background-color: #3377AA;
+    color: white!important;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 1200px;
+}
+
+
+
+
+/* ============================================ */
+
+header {
+    background-color: #EDF4EC;
+    margin-bottom: 30px;
+}
+
+header .logo {
+    float: left;
+    height: 30px;
+    width: 154px;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+header a{
+    display: block;
+    height: 30px;
+    width: 154px;
+    text-indent: -9999px;
+    background: url(../images/doubanlogo.png) no-repeat;
+    background-size: 65%;
+    cursor: pointer;
+}
+
+/* ================================================================= */
+
+.anony-nav {
+    position: relative;
+    overflow:hidden;
+    margin-bottom: 20px;
+}
+.anony-nav .site-name {
+    height: 31px;
+    width: 75px;
+    float: left;
+    background: url(../images/sitename.png) no-repeat center;
+    background-size: 75px 25px;
+    text-indent: -9999px;
+}
+.anony-nav .search-input {
+    float: left;
+    margin-left: 30px;
+}
+.anony-nav .search-input input {
+    float: left;
+    height: 23px;
+    width: 230px;
+    padding: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: #C3C3C3 1px solid;
+    border-right: none;
+    text-indent: 2px;
+}
+
+.anony-nav .search-input input::-webkit-input-placeholder{color: #D6D6D6;text-indent: 2px;font-size: 13px;}    /* 使用webkit内核的浏览器 */
+.anony-nav .search-input input:-moz-placeholder{color: #D6D6D6;text-indent: 2px;font-size: 13px;}                  /* Firefox版本4-18 */
+.anony-nav .search-input input::-moz-placeholder{color: #D6D6D6;text-indent: 2px;font-size: 13px;}                  /* Firefox版本19+ */
+.anony-nav .search-input input:-ms-input-placeholder{color: #D6D6D6;text-indent: 2px;font-size: 13px;}           /* IE浏览器 */
+
+.anony-nav .search-input button {
+    border: #C3C3C3 1px solid;
+    border-left: none;
+    height: 31px;
+    width: 31px;
+    background: url(../images/pre/search.png) center no-repeat;
+    cursor: pointer;
+}
+
+.anony-nav-links ul {
+    float: right;
+    height: 31px;
+    line-height: 31px;
+}
+.anony-nav-links li {
+    display: block;
+    float: left;
+    margin-left: 15px;
+}
+.anony-nav-links a {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.anony-nav-links .lnk-book {color: #584029;}
+.anony-nav-links .lnk-movie {color: #278DCE;}
+.anony-nav-links .lnk-music{color: #F37F00;}
+.anony-nav-links .lnk-events{color: #E85205;}
+.anony-nav-links .lnk-group{color: #0F959D;}
+.anony-nav-links .lnk-read{color: #389EAC;}
+.anony-nav-links .lnk-fm{color: #9BD6C5;}
+.anony-nav-links .lnk-shijian{color: #4A4A4A;}
+.anony-nav-links .lnk-market{color: #72A56E;}
+
+
+/* ====================================================== */
+
+.anony-reg-new {
+    position: relative;
+    height: 300px;
+    background-color: #EDF4EC;
+}
+.anony-reg-new .reg-new-inner {
+    background: url(../images/pre/background1.jpg) no-repeat;
+    background-size: contain;
+    background-position: 50px 0;
+    height: 300px;
+    /* width: 843px; */
+    width: 1200px;
+    margin: 0 auto;
+}
+.anony-reg-new .login {
+    float: right;
+    height: 300px;
+    width: 300px;
+
+}
+.anony-reg-new .app {
+    position: absolute;
+    top: 50%;
+    margin-left: 685px;
+    transform: translate(0,50%);
+    margin-top: -90px;
+    width: 160px;
+}
+.app .app-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-bottom: 25px;
+}
+.app .app-title span {
+    padding-left: 7px;
+}
+
+.app .lnk-app {
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00B51D;
+    border-radius: 3px;
+    padding: 7px 20px;
+    margin: 5px 3px;
+    display: inline-block;
+}
+
+.app .app-qr {
+    display: inline-block;
+    position: relative;
+}
+.app-qr a {
+    display: block;
+    border: 1px solid #00B51D;
+    /* padding: 6px 0px 9px 0; */
+    border-radius: 3px;
+}
+
+.app-qr .app-qr-expand {
+    position: absolute;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.app-qr p {
+    padding-top: 5px;
+}
+
+.anony-sns {
+    margin-top: 50px;
+    width: 1000px;
+}
+.anony-sns .side {
+    float: right;
+    width: 250px;
+    height: 470px;
+    margin-left: 30px;
+}
+.side .online ul {
+    font-size: 14px;
+}
+.side .online ul li {
+    margin-bottom: 10px;
+}
+.side .online ul span {
+    color: #AFAFAF;
+    font-size: 13px;
+    display: block;
+}
+
+.anony-sns .albums {
+    float: left;
+    width: 360px;
+    color: #999;
+    margin-right: 20px;
+}
+.anony-sns .albums ul li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.anony-sns .notes ul li {
+    margin-bottom: 10px;
+}
+.anony-sns .notes ul li .author {
+    color: #999999;
+}
+
+/* ==============================footer================================== */
+footer {
+    margin: 50px auto 20px auto;
+    width: 1000px;
+    border-top: 1px dashed #9C9999;
+    padding-top: 15px;
+    color: #9C9C9C;
+    position: relative;
+}
+footer #icp {
+    float: left;
+}
+footer .fright {
+    float: right;
+}

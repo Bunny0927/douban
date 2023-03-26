@@ -1,0 +1,194 @@
+body {
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.account-main {
+    height: 296px;
+    /* min-height: 200px; */
+    /* max-width: 300px; */
+    width: 300px;
+    padding: 30px 10px 10px;
+    overflow: hidden;
+    background: transparent;
+    /* border: 1px solid #aaa; */
+    margin: 0 auto;
+    position: relative;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.quick-login-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+#quick-more-item {
+    color: #9b9b9b;
+    padding: 5px;
+    margin-right: 20px;
+    background-color: #EDF9EE;
+    vertical-align: middle;
+}
+#quick-more-item::after {
+  position: absolute;
+  right: 45px;
+  width: 0;
+  top: 10px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #EDF9EE;
+  width: 0;
+  height: 0;
+  content: '';
+}
+
+
+.login-body {
+    position: relative;
+    width: 100%;
+}
+.account-tab ul {
+    border-bottom: 1px solid #ececec;
+}
+.account-tab  ul li{
+    float: left;
+    width: 50%;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+.account-tab  ul li a {
+    color: #9b9b9b;
+    cursor: pointer;
+}
+.choosetab {
+    border-bottom: 1px solid #494949;
+    font-weight: 600;
+}
+.choosetab a {
+    color: #333!important;
+}
+.account-body {
+    margin-top: 10px;
+    text-align: center;
+}
+.account-body .account-tip span{
+    color: #9b9b9b;
+}
+.account-body .account-tip a {
+    cursor: pointer;
+    color: #41ac52;
+}
+
+.account-input {
+    background-color: white;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #e4e6e5;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.phonenum {
+    padding: 8px 40px 8px 60px;
+}
+.account-input input {
+    width: 100%;
+}
+.phonenum button {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0,-50%);
+    background-color: transparent;
+    padding-right: 10px;
+    border-right: 2px solid #e4e6e5;
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+    vertical-align:middle;
+    cursor: pointer;
+}
+.verification {
+    padding: 8px 80px 8px 10px;
+}
+.verification button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0,-50%);
+    background-color: transparent;
+    font-size: 13px;
+    color: #41ac52;
+    vertical-align:middle;
+    cursor: pointer;
+}
+
+.login-btn {
+    height: 34px;
+    width: 100%;
+    line-height: 34px;
+    font-weight: 400;
+    /* display: block; */
+    background-color: #41ac52;
+    border-radius: 3px;
+    color: white;
+}
+.down-tip {
+    font-size: 13px;
+    color: #41ac52;
+    float: right;
+    margin-top: 10px;
+}
+
+.account-footer {
+    color: #9b9b9b;
+    border-top: 2px solid #ececec;
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.account-footer img {
+    height: 20px;
+    width: 20px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+#password-body .account-tip a{
+    float: right;
+}
+
+
+.quick-login-body > p {
+    color: #333;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 30px;
+}
+.quick-login-content {
+    text-align: center;
+}
+.quick-login-tip {
+    border-radius: 12px;
+    background-color: rgba(0,0,0,.08);
+    width: 230px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.quick-login-tip a {
+    color: #41ac52;
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder{color: #9b9b9b;font-size: 13px;font-family: Arial, Helvetica, sans-serif;}    /* 使用webkit内核的浏览器 */
+input:-moz-placeholder{color: #9b9b9b;font-size: 13px;font-family: Arial, Helvetica, sans-serif;}                  /* Firefox版本4-18 */
+input::-moz-placeholder{color: #9b9b9b;font-size: 13px;font-family: Arial, Helvetica, sans-serif;}                  /* Firefox版本19+ */
+input:-ms-input-placeholder{color: #9b9b9b;font-size: 13px;font-family: Arial, Helvetica, sans-serif;}

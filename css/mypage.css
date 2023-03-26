@@ -1,0 +1,206 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 1030px;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+article {
+    width: 675px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+aside {
+    width: 300px;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.main a {
+    color: #37a;
+    cursor: pointer;
+    font-size: 13px;
+}
+.main a:hover {
+    background-color: #37a;
+    color: white;
+}
+
+.main h2 {
+    color: #007722;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.main h2 .pl {
+    color: #666666;
+    font-size: 10px;
+}
+.main h2 .pl a {
+    color: #3377AA;
+    line-height: 19px;
+    font-size: 13px;
+}
+.main h2 .pl a:hover {
+    background-color: #3377AA;
+    color: white!important;
+}
+
+.my-diary .user-btn, .my-album .album-btn {
+    float: right;
+}
+.main-btn {
+    background-color: #fcf7f3;
+    color: #777;
+    border: 1px solid #edded4;
+    border-radius: 2px;
+    padding: 2px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.main-btn:hover {
+    border: 1px solid #EDDED6;
+    background-color: #FBF4EF;
+}
+
+
+
+
+.user-info {
+    margin-bottom: 30px;
+}
+.user-info .user-descr {
+    float: right;
+    width: 610px;
+    position: relative;
+}
+.user-info .user-descr .user-name {
+    padding-top: 5px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #494949;
+}
+.user-info .user-descr label {
+    font-style: italic;
+    font-size: 13px;
+    color: #777;
+    padding-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.user-info .user-descr .descr-more-items {
+    position: absolute;
+    top: 30px;
+}
+.descr-more-items input {
+    border: #777 1px solid;
+    border-radius: 4px;
+    font-size: 13px;
+    width: 200px;
+    height: 19px;
+    padding: 1px 5px;
+}
+.descr-more-items button {
+    margin-left: 10px;
+    padding: 1px 5px;
+    border: #777 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.user-info .user-descr .user-info-nav {
+    margin-top: 20px;
+}
+.user-info .user-descr .user-info-nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+.my-diary , .my-album {
+    margin-bottom: 50px;
+}
+.diary-container li {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.diary-container .diary-title a {
+    font-size: 14px;
+}
+.diary-container .diary-title {
+    padding-bottom: 5px;
+}
+.diary-container .diary-content {
+    padding-top: 10px;
+    color: #111;
+}
+.my-album .album-tip {
+    color: #111;
+}
+
+.my-bbs textarea {
+    border: 1px solid #ccc;
+    padding: 3px;
+    font-size: 14px;
+}
+.my-bbs .butt {
+    padding: 1px 5px;
+    border: #777 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.aside-user {
+    background-color: #FFF6ED;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #f5e9db;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.aside-user .aside-user-info {
+    border-bottom: 1px solid #f5e9db;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+.aside-user .user-add-info {
+    float: right;
+    width: 115px;
+}
+
+
+.broadcast-container li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    font-size: 13px;
+    color: #333;
+}
+.broadcast-container li .bd-nav {
+    display: inline-block;
+    margin-top: 10px;
+}
+.broadcast-container li .bd-nav a {
+    margin-right: 15px;
+}
+.broadcast-container li .say-content {
+    margin-top: 10px;
+}
+.broadcast-container li .bd-time {
+    color: #999;
+}
+.bd-nav a {
+    color: #7094b7;
+}
+.bd-nav a:hover {
+    background-color: #7094b7;
+    color: white;
+}
+.bd-nav .bd-time:hover {
+    background-color: #999;
+    color: white;
+}

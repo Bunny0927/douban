@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录注册</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="shortcut icon" href="./images/icon.ico" type="image/gif">
+</head>
+<body>
+    <div class="account-main">
+        <a class="quick-login-btn" id="quick-login-hc">
+            <span id="quick-more-item" style="visibility:hidden;">扫码登录</span>
+            <img id="quick-login-img" src="./images/pre/scode2.png" height="30" width="30"/>
+        </a>
+        <div class="quick-login-body" id="quick-login-ch" style="display: none;">
+            <p>二维码登录</p>
+            <div class="quick-login-content">
+                <img src="./images/app_qrcode.png" height="150" width="150" />
+                <p class="quick-login-tip">请打开豆瓣APP扫一扫&nbsp;或&nbsp;<a>短信登录验证</a></p>
+            </div>
+        </div>
+
+        <div class="login-body" id="login-body-ch" style="display: block;">
+            <div class="account-tab" style="display: block;">
+                <ul class="clearfix">
+                    <li class="choosetab" id="message-login"><a>短信登录 / 注册</a></li>
+                    <li id="password-login"><a>密码登录</a></li>
+                </ul>
+            </div>
+            <div class="account-body" id="message-body" style="display: block;">
+                <p class="account-tip"><span>请仔细阅读&nbsp;</span><a>豆瓣使用协议、豆瓣个人信息保护政策</a></p>
+                <div class="account-input phonenum">
+                    <button>+86</button>
+                    <input type="text" placeholder="手机号">
+                </div>
+                <div class="account-input verification">
+                    <input type="text" placeholder="验证码">
+                    <button>获取验证码</button>
+                </div>
+                <button class="login-btn" id="login">登录豆瓣</button>
+                <p class="down-tip">收不到验证码</p>
+            </div>
+
+            <div class="account-body" id="password-body" style="display: none;">
+                <p class="account-tip clearfix"><a>找回密码</a></p>
+                <div class="account-input verification">
+                    <input type="text" placeholder="手机号 / 邮箱">
+                </div>
+                <div class="account-input verification">
+                    <input type="text" placeholder="密码">
+                </div>
+                <button class="login-btn">登录豆瓣</button>
+                <p class="down-tip">海外手机登录</p>
+            </div>
+            <div class="account-footer">
+                <span>第三方登录:</span>
+                <img src="./images/pre/weixin.svg"/>
+                <img src="./images/pre/weibo.svg"/>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        window.onload = function () {
+
+            var quick_login_hc = document.getElementById("quick-login-hc");
+            var quick_more_item = document.getElementById("quick-more-item");
+            quick_login_hc.onmouseover = function () {
+                quick_more_item.style.visibility = "visible";
+            }
+            quick_login_hc.onmouseout = function () {
+                quick_more_item.style.visibility = "hidden";
+            }
+
+            var quick_login_img = document.getElementById("quick-login-img");
+            var quick_login_ch = document.getElementById("quick-login-ch");
+            var login_body_ch = document.getElementById("login-body-ch");
+            quick_login_hc.onclick = function () {
+                if(quick_login_img.src.includes("scode2")) {
+                    quick_login_img.src = "./images/pre/download.png";
+                    quick_login_ch.style.display = "block";
+                    login_body_ch.style.display = "none";
+                } else {
+                    quick_login_img.src = "./images/pre/scode2.png";
+                    quick_login_ch.style.display = "none";
+                    login_body_ch.style.display = "block";
+                }
+            }
+
+            var message_login = document.getElementById("message-login");
+            var password_login = document.getElementById("password-login");
+            var message_body = document.getElementById("message-body");
+            var password_body = document.getElementById("password-body");
+            var login = document.getElementById("login");
+            message_login.onclick = function () {
+                message_login.className = "choosetab";
+                password_login.className = "";
+                message_body.style.display = "block";
+                password_body.style.display = "none";
+
+            }
+            password_login.onclick = function () {
+                password_login.className = "choosetab";
+                message_login.className = "";
+                password_body.style.display = "block";
+                message_body.style.display = "none";
+            }
+            login.onclick = function () {
+                window.location.href = "homepage.html";
+            }
+
+
+        }
+    </script>
+</body>
+</html>

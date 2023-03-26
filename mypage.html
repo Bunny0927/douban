@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>瑶麦</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/mypage.css">
+    <link rel="shortcut icon" href="./images/icon.ico" type="image/gif">
+</head>
+<body>
+    <header>
+        <div class="global-nav clearfix">
+            <div class="nav-info">
+                <div class="user-account">
+                    <a href="#" id="account-click"><span>瑶麦的账号</span><span class="arrow"></span></a>
+                    <div class="more-items" id="account-items" style="display: none;">
+                        <ul>
+                            <li><a href="#">个人主页</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">我的钱包</a></li>
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="./pre.html">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="douyou"><a href="#">豆邮</a><em>(1)</em></div>
+                <div class="top-nav-reminder">
+                    <a href="#" class="lnk-remind" id="remind-click">提醒</a>
+                    <div id="remind-items" class="more-items" style="display: none;">
+                        <div class="bd">
+                            <p class="no-new-notis">最近没有收到新提醒...</p>
+                        </div>
+                        <div class="ft">
+                            <a href="#">查看全部提醒
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-nav-doubanapp">
+                    <a href="#" class="lnk-doubanapp" id="doubanapp—hover">下载豆瓣客户端</a>
+                    <div id="nav-appintro" class="more-items" style="display: none;">
+                        <div class="appintro-title">
+                            <img src="./images/nav_doubanapp.png" height="100" width="100" />
+                            <p>豆瓣</p>
+                        </div>
+                        <div class="qrcode">
+                            <img src="./images/app_qrcode.png" height="150" width="150" />
+                            <p>扫码直接下载</p>
+                        </div>
+                        <div class="download">
+                            <a href="#">iPhone</a>
+                            <span>·</span>
+                            <a href="#" class="download-android">Android</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="nav-items">
+                <li><a href="./homepage.html">豆瓣</a></li>
+                <li><a href="#">读书</a></li>
+                <li><a href="#">电影</a></li>
+                <li><a href="#">音乐</a></li>
+                <li><a href="#">同城</a></li>
+                <li><a href="#">小组</a></li>
+                <li><a href="#">阅读</a></li>
+                <li><a href="#">FM</a></li>
+                <li><a href="#">时间</a></li>
+                <li><a href="#">豆品</a></li>
+            </ul>
+        </div>
+        <div class="nav-sns clearfix">
+            <div class="hw nav-sns-content">
+                <div class="site-name">豆瓣网</div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a class="lnk-item" href="./homepage.html">首页</a></li>
+                        <li><a class="lnk-item" href="./mypage.html">我的豆瓣</a></li>
+                        <li><a class="lnk-item" href="#">浏览发现</a></li>
+                        <li><a class="lnk-item lnk-topic" href="#">话题广场
+                                <img src="./images/new_menu.gif" style="position: absolute; top: -7px; right: -13px;">
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="search-input">
+                    <input type="text" placeholder="搜索你感兴趣的内容和人..." />
+                    <button></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main hw clearfix">
+        <article>
+            <div class="user-info clearfix">
+                <img class="profile" src="./images/profile.jpg" height="50" width="50">
+                <div class="user-descr">
+                    <p class="user-name">瑶麦</p>
+                    <label id="descr-click">(添加签名档)</label>
+                    <form class="descr-more-items" id="descr-items" style="display: none;">
+                        <input type="text"/>
+                        <button id="descr-submit">修改</button><button id="descr-cancel">取消</button>
+                    </form>
+                    <ul class="user-info-nav">
+                        <li><a>我的主页</a></li>
+                        <li><a>广播</a></li>
+                        <li><a>相册</a></li>
+                        <li><a>日记</a></li>
+                        <li><a>豆列</a></li>
+                        <li><a>片单&nbsp;|&nbsp;书单</a></li>
+                        <li><a>设置</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="my-diary">
+                <h2>
+                    我的日记&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+                    <span class="pl">&nbsp;(&nbsp;<a>全部</a>&nbsp;)</span>
+                </h2>
+                <div class="user-btn"><button class="main-btn">＋&nbsp;写日记</button></div>
+                <ul class="diary-container">
+                    <li>
+                        <p class="diary-title"><a>呜呜呜</a></p>
+                        <p class="diary-time">2022-03-17 10:49:22</p>
+                        <p class="diary-content">今天下雨了</p>
+                    </li>
+                    <li>
+                        <p class="diary-title"><a>嘻嘻嘻</a></p>
+                        <p class="diary-time">2022-03-10 13:54:29</p>
+                        <p class="diary-content">今天天气真好，我想出去玩。</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="my-album">
+                <h2>
+                    我的相册&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+                    <span class="pl">&nbsp;(&nbsp;<a>创建0</a>&nbsp;·&nbsp;<a>关注0</a>&nbsp;)</span>
+                </h2>
+                <div class="album-btn">
+                    <button class="main-btn">＋&nbsp;发照片</button>
+                    <button class="main-btn">＋&nbsp;新建相册</button>
+                </div>
+                <p class="album-tip">可以有自己的相册来存放照片了。</p>
+            </div>
+            <div class="my-bbs">
+                <h2>
+                    留言板&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+                    <span class="pl">&nbsp;(&nbsp;<a>全部</a>&nbsp;)</span>
+                </h2>
+                <form name="bbsform" style="margin-bottom:12px">
+                    <textarea class="" name="bbs_text" style="width:97%;height:50px;margin-bottom:5px"></textarea>
+                    <input name="bbs_submit" class="butt" type="button" value=" 留言 ">
+                </form>
+            </div>
+        </article>
+        <aside>
+            <div class="aside-user">
+                <div class="aside-user-info">
+                    <img class="profile" src="./images/profile.jpg" height="150" width="150" />
+                    <div class="user-add-info">
+                        <p>254856750</p>
+                        <p>2022-03-10加入</p>
+                    </div>
+                </div>
+                <div class="aside-user-intro">
+                    <span><span id="intro-detail">bunny~</span>&nbsp;(<a id="intro-click">编辑</a>)</span>
+                    <form class="intro-more-items" id="intro-items" style="display:none">
+                        <textarea>bunny~</textarea>
+                        <br>
+                        <input id="intro-submit" type="button" value="保存">
+                        <input id="intro-cancel" type="button" value="取消">
+                    </form>
+                </div>
+            </div>
+            <div class="aside-broadcast">
+                <h2>
+                    我的广播&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+                    <span class="pl">&nbsp;(&nbsp;<a>全部</a>&nbsp;)</span>
+                </h2>
+                <ul class="broadcast-container">
+                    <li>
+                        <p class="bd-content"><a class="bd-user-name">瑶麦</a>&nbsp;写了新日记&nbsp;<a class="bd-title">呜呜呜</a></p>
+                        <span class="bd-nav"><a class="bd-time">刚刚</a><a>回应</a><a>删除</a></span>
+                    </li>
+                    <li>
+                        <p class="bd-content"><a class="bd-user-name">瑶麦</a>&nbsp;说：</p>
+                        <p class="say-content">hello!</p>
+                        <span class="bd-nav"><a class="bd-time">昨天</a><a>回应</a><a>删除</a></span>
+                    </li>
+                    <li>
+                        <p class="bd-content"><a class="bd-user-name">瑶麦</a>&nbsp;写了新日记&nbsp;<a class="bd-title">嘻嘻嘻</a></p>
+                        <span class="bd-nav"><a class="bd-time">3月10日</a><a>回应</a><a>删除</a></span>
+                    </li>
+                </ul>
+                <p class="rev-link"><a>&gt;&nbsp;我被0人关注</a></p>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="douban-footer">
+        <span>&copy;2005－2022 douban.com, all rights reserved 北京豆网科技有限公司</span>
+        <span class="fright">
+            <a href="#">关于豆瓣</a>
+            · <a href="#">在豆瓣工作</a>
+            · <a href="#">联系我们</a>
+            · <a href="#">法律声明</a>
+
+            · <a href="#">帮助中心</a>
+            · <a href="#">移动应用</a>
+            · <a href="#">豆瓣广告</a>
+        </span>
+    </footer>
+    <script>
+        window.onload = function () {
+            var descr_items = document.getElementById("descr-items");
+
+            document.getElementById("descr-click").onclick = function () {
+                descr_items.style.display = "block";
+            }
+            document.getElementById("descr-submit").onclick = function () {
+                descr_items.style.display = "none";
+            }
+            document.getElementById("descr-cancel").onclick = function () {
+                descr_items.style.display = "none";
+            }
+
+        }
+    </script>
+</body>
+</html>
